@@ -10,7 +10,7 @@ dotenv.config()
 const app = express()
 
 app.use(cors({
-    origin: "http://localhost:3000",  // Allow frontend requests
+    origin: "https://todo-frontend-eight-psi.vercel.app/",  // Allow frontend requests
     credentials: true
 }));
 app.use(express.json())
